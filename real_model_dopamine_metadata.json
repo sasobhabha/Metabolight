@@ -1,0 +1,24 @@
+{
+  "target_neurotransmitter": "dopamine",
+  "best_model": "ridge",
+  "performance": {
+    "test_r2": 0.2509141708858622,
+    "test_mse": 0.01426490449885995
+  },
+  "feature_importance": {
+    "acetate": 0.036434124823354626,
+    "propionate": 0.010988912575713057,
+    "butyrate": 0.06294411772834253,
+    "lactobacillus": 0.002573101654787288,
+    "bifidobacterium": 0.0007627505053719985,
+    "clostridia": 0.00017776407312545278,
+    "bacteroides": 0.0023948076146770693,
+    "veillonella": 0.0008863125875729566,
+    "akkermansia": 0.006365598144576707
+  },
+  "data_shape": {
+    "n_samples": 300,
+    "n_features": 9
+  },
+  "data_source": "Real literature-based dataset"
+}

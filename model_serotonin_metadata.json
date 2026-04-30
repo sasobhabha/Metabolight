@@ -1,0 +1,23 @@
+{
+  "target_neurotransmitter": "serotonin",
+  "best_model": "random_forest",
+  "performance": {
+    "test_r2": 0.6425090179135413,
+    "test_mse": 0.011472248179194908
+  },
+  "feature_importance": {
+    "acetate": 0.031244825637328083,
+    "propionate": 0.04432242334804496,
+    "butyrate": 0.19610480989569132,
+    "lactobacillus": 0.030618503214813762,
+    "bifidobacterium": 0.028954876856658037,
+    "clostridia": 0.02151061209429923,
+    "total_scfa": 0.5904897353943046,
+    "butyrate_ratio": 0.024687810616826136,
+    "acetate_propionate_ratio": 0.032066402942033924
+  },
+  "data_shape": {
+    "n_samples": 100,
+    "n_features": 9
+  }
+}

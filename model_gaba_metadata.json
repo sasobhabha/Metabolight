@@ -1,0 +1,23 @@
+{
+  "target_neurotransmitter": "gaba",
+  "best_model": "random_forest",
+  "performance": {
+    "test_r2": 0.45663405672555213,
+    "test_mse": 0.01963189043460614
+  },
+  "feature_importance": {
+    "acetate": 0.02324268577058241,
+    "propionate": 0.064567680350539,
+    "butyrate": 0.290887231557512,
+    "lactobacillus": 0.05777077650677596,
+    "bifidobacterium": 0.030312513797354862,
+    "clostridia": 0.024096407231982597,
+    "total_scfa": 0.46461950714109224,
+    "butyrate_ratio": 0.021151474125218204,
+    "acetate_propionate_ratio": 0.02335172351894259
+  },
+  "data_shape": {
+    "n_samples": 100,
+    "n_features": 9
+  }
+}

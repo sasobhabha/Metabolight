@@ -1,0 +1,23 @@
+{
+  "target_neurotransmitter": "dopamine",
+  "best_model": "linear_regression",
+  "performance": {
+    "test_r2": 0.664988669623487,
+    "test_mse": 0.013836638438522866
+  },
+  "feature_importance": {
+    "acetate": 0.03671600332727855,
+    "propionate": 0.04421525516420374,
+    "butyrate": 0.09691572211145259,
+    "lactobacillus": 0.018386371803411492,
+    "bifidobacterium": 0.01026086896150454,
+    "clostridia": 0.013052064226095091,
+    "total_scfa": 0.06683980938885158,
+    "butyrate_ratio": 0.01848788220935706,
+    "acetate_propionate_ratio": 0.0184060754269716
+  },
+  "data_shape": {
+    "n_samples": 100,
+    "n_features": 9
+  }
+}

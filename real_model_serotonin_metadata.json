@@ -1,0 +1,24 @@
+{
+  "target_neurotransmitter": "serotonin",
+  "best_model": "ridge",
+  "performance": {
+    "test_r2": 0.03307207480503982,
+    "test_mse": 0.012871070164875093
+  },
+  "feature_importance": {
+    "acetate": 0.015850235448716807,
+    "propionate": 0.006745250010495784,
+    "butyrate": 0.044684128662550025,
+    "lactobacillus": 0.007077961084995538,
+    "bifidobacterium": 0.009014112880480039,
+    "clostridia": 0.013058892909458487,
+    "bacteroides": 0.01372138501289026,
+    "veillonella": 0.0060875864711409594,
+    "akkermansia": 0.020660784952931038
+  },
+  "data_shape": {
+    "n_samples": 300,
+    "n_features": 9
+  },
+  "data_source": "Real literature-based dataset"
+}

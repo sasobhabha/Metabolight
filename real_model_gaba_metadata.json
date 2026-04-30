@@ -1,0 +1,24 @@
+{
+  "target_neurotransmitter": "gaba",
+  "best_model": "ridge",
+  "performance": {
+    "test_r2": 0.2650542021803203,
+    "test_mse": 0.016812144173162947
+  },
+  "feature_importance": {
+    "acetate": 0.03520056625440292,
+    "propionate": 0.021355323533779055,
+    "butyrate": 0.05501183073618523,
+    "lactobacillus": 0.004718905074307148,
+    "bifidobacterium": 0.0013828527541353683,
+    "clostridia": 0.011818704195354773,
+    "bacteroides": 0.007162907119656712,
+    "veillonella": 0.0027187771567440196,
+    "akkermansia": 0.002926697245940459
+  },
+  "data_shape": {
+    "n_samples": 300,
+    "n_features": 9
+  },
+  "data_source": "Real literature-based dataset"
+}
