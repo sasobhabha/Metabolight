@@ -199,6 +199,12 @@ def main():
                     clostridia_status = "Low"
                 print(f"Clostridia Ratio: {clostridia_status} ({clostridia_ratio:.1%})")
             
+            # Biological sanity check: propionate should not exceed acetate in healthy gut
+            if propionate > acetate:
+                print("\n⚠️  BIOLOGICAL WARNING: Propionate exceeds acetate.")
+                print("   In healthy guts, acetate is typically the dominant SCFA (≥50% of total).")
+                print("   Propionate > acetate may indicate dysbiosis or measurement issue.")
+            
         except ValueError:
             print("Please enter valid numbers or 'quit' to exit")
         except KeyboardInterrupt:
